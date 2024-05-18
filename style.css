@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  font-family: inter;
+}
+#hero{
+  background-color: #303030;
+  padding: 150px 0px 150px 90px;
+}
+h1{
+  font-family: inter;
+  font-size: 40px;
+  font-weight: 600;
+  color: white;
+}
+#paragrafohero{
+  color: white;
+  font-size: 18px;
+  padding-top: 20px;
+}
+
+#datas{
+  background-color: #F9F9F9;
+  padding: 50px 0px 50px 90px;
+  display: grid;
+  grid-auto-flow: column;
+  text-align: center;
+}
+.data{
+  text-align: left;
+  padding-bottom: 10px;
+}
+#resume{
+  display: grid;
+  grid-auto-flow: column;
+  padding: 50px 0px 50px 90px;
+  text-align: center;
+}
+#texts{
+  text-align: left;
+  padding-top: 225px;
+}
+img{
+  width: 450px;
+  align-items: end;
+  padding-right: 200px;
+}
+#form{
+  background-color: #303030;
+  padding: 50px 0 50px 0px;
+  text-align: center;
+  color: white;
+}
+input{
+  background-color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 10px;
+  width: 400px;
+  height: 40px;
+  margin: 20px;
+}
+input::placeholder{
+  font-size: 18px;
+}
+button{
+  background-color: #C07212;
+  width: 200px;
+  height: 60px;
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0px 20px 10px 0px  #00000096;
+  cursor: pointer;
+  transition-duration: 0.7s;
+}
+button:hover{
+  box-shadow: 10px 5px 10px 5px  #ffffff0b;
+  transform: translateY(5px);
+  transition-duration: 0.7s;
+}
+
